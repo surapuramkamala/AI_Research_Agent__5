@@ -1,0 +1,93 @@
+[
+    {
+        "timestamp": "2026-09-07T14:47:30.831112",
+        "step": "planner",
+        "status": "started",
+        "details": "Creating research plan"
+    },
+    {
+        "timestamp": "2026-09-07T14:47:47.786686",
+        "step": "planner",
+        "status": "completed",
+        "details": {
+            "research_questions": [
+                "What is the current state of AI agents in software engineering?",
+                "How do AI agents impact the development and maintenance of software systems?",
+                "What are the benefits and challenges of using AI agents in software engineering?"
+            ],
+            "search_queries": [
+                "AI agents in software engineering",
+                "machine learning in software development",
+                "automated testing and validation in software engineering"
+            ]
+        }
+    },
+    {
+        "timestamp": "2026-09-07T14:47:47.786686",
+        "step": "research",
+        "status": "started",
+        "details": "Searching web"
+    },
+    {
+        "timestamp": "2026-09-07T14:48:18.267213",
+        "step": "research",
+        "status": "completed",
+        "details": {
+            "sources_found": 15
+        }
+    },
+    {
+        "timestamp": "2026-09-07T14:48:18.267213",
+        "step": "summarization",
+        "status": "started",
+        "details": "Summarizing research"
+    },
+    {
+        "timestamp": "2026-09-07T14:50:40.603316",
+        "step": "summarization",
+        "status": "completed",
+        "details": "Summary generated"
+    },
+    {
+        "timestamp": "2026-09-07T14:50:40.603316",
+        "step": "fact_checking",
+        "status": "started",
+        "details": "Validating claims"
+    },
+    {
+        "timestamp": "2026-09-07T14:55:45.325880",
+        "step": "fact_checking",
+        "status": "completed",
+        "details": "Fact checks completed"
+    },
+    {
+        "timestamp": "2026-09-07T14:55:45.325880",
+        "step": "critic",
+        "status": "started",
+        "details": "Reviewing research quality"
+    },
+    {
+        "timestamp": "2026-09-07T14:58:24.190413",
+        "step": "critic",
+        "status": "completed",
+        "details": "Critic review completed"
+    },
+    {
+        "timestamp": "2026-09-07T14:58:24.190413",
+        "step": "human_approval",
+        "status": "waiting",
+        "details": "Awaiting human decision"
+    },
+    {
+        "timestamp": "2026-09-07T14:58:43.113096",
+        "step": "human_approval",
+        "status": "approved",
+        "details": "string"
+    },
+    {
+        "timestamp": "2026-09-07T15:02:09.704357",
+        "step": "final_report",
+        "status": "completed",
+        "details": "Final report generated successfully"
+    }
+]
